@@ -1,0 +1,7 @@
+
+FROM mongo:latest
+
+
+ENV MONGO_INITDB_DATABASE=photo_aggr
+
+EXPOSE 27017
